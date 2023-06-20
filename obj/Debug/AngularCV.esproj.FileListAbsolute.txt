@@ -1,0 +1,2 @@
+C:\Users\ashle\source\repos\AngularCV\AngularCV\obj\Debug\AngularCV.esproj.SuggestedBindingRedirects.cache
+C:\Users\ashle\source\repos\AngularCV\AngularCV\obj\Debug\AngularCV.esproj.CoreCompileInputs.cache
