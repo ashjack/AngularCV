@@ -2,11 +2,19 @@
     height: 100px;
     width: 100%;
     background: orange;
+    display: flex;
 }
 
-  .header p {
-    font-size: 2em;
-    margin: 0;
-    padding-top: 25px;
-    padding-left: 25px;
-  }
+.left-text {
+  font-size: 1.5em;
+  margin: 0;
+  padding-top: 25px;
+  padding-left: 25px;
+}
+
+.right-text {
+  font-size: 1.5em;
+  margin-left: auto;
+  padding-right: 25px;
+  padding-top: 25px;
+}
