@@ -3,7 +3,7 @@ import { SkillCategory, Skill } from '../../models';
 import { HttpClient } from '@angular/common/http';
 
 @Component({
-  selector: 'app-skills',
+  selector: 'skills',
   templateUrl: './skills.component.html',
   styleUrls: ['./skills.component.css'],
 })
