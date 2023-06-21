@@ -1,11 +1,8 @@
-<div *ngFor="let skillCat of skillCats">
+<div *ngFor="let skillCat of skillCats" style="margin-bottom: 80px; margin-top: 20px">
   <h3>{{skillCat.category}}</h3>
   <div class="skill-container">
     <div class="skill-card" *ngFor="let skill of skillCat.skills">
       <h4>{{skill.name}}</h4>
-      <!--<div class="progress">
-        <div class="progress-bar" role="progressbar" [style.width]="skill.years * 12.5 + '%'" aria-valuenow="2" aria-valuemin="0" aria-valuemax="8">{{skill.years}} years</div>
-      </div>-->
 
       <img src="/assets/images/{{skill.image}}" />
 
