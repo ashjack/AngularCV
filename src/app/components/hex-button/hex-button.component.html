@@ -26,6 +26,8 @@
       <li *ngFor="let point of project.steps">{{point}}</li>
     </ul>
     <p>{{project.outro}}</p>
+    <hr />
+    <a href="{{project.link}}" target="_blank">See more text/images here</a>
   </div>
   <div class="modal-footer">
     <button type="button" class="btn btn-light" (click)="modal.close('Close click')">Close</button>
