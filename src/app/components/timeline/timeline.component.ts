@@ -22,6 +22,7 @@ export class TimelineComponent {
     });
   }
 
+  //Open a model with the job details
   openModal(content: any, job: Job): void {
     if (job) {
       this.selectedJob = job;
@@ -34,6 +35,7 @@ export class TimelineComponent {
     this.selectedJob = undefined;
   }
 
+  //Checks if the circle attached to the job is visible, and if so, adds the animation class
   @HostListener('window:scroll')
   checkScroll(): void {
     const elements = this.elRef.nativeElement.querySelectorAll('.circle');

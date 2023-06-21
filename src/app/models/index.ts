@@ -5,6 +5,7 @@ export interface Project {
   intro: string;
   steps: string[];
   outro: string;
+  link: string;
 }
 
 export interface Job {
