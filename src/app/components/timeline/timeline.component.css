@@ -1,0 +1,53 @@
+.circle-container {
+  position: relative;
+}
+
+.component {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(5px, -50%);
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: green;
+  position: absolute;
+  border-color: black;
+  border-width: 10px;
+  border-style: solid
+}
+
+.job-text {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 50%;
+  width: 15em;
+  background: white;
+  text-align: center;
+  opacity: 0; /* Initially hide the job text */
+  transition: opacity 0.5s, transform 0.5s;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin-top:-80px;
+  border-style: dotted;
+}
+
+.job-text-left {
+transform: translateX(-100%);
+}
+
+.job-text-right {
+transform: translateX(100%);
+}
+
+.fade-slide-in {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+

@@ -1,0 +1,33 @@
+
+
+<div style="width: 40px; height: 3000px; border-radius: 25px; background: black; display: flex; justify-content: center; align-items: center;">
+  <div style="width: 20px; height: 2980px; border-radius: 20px; background: white; position:absolute"></div>
+  <div style="width: 80px; height: 3000px; border-radius: 20px; position: absolute">
+    <div class="circle" [style.top]="((i * 2 + 1) / (l * 2)) * 100 + '%'" *ngFor="let job of history; let i = index; let l = count">
+      <div class="job-text {{(i % 2) == 0 ? 'job-text-right' : 'job-text-left'}}" [style.margin-left]="(i % 2) == 0 ? 8 + 'em' : -20 + 'em'">
+        <h3>{{job.title}}</h3>
+        <h4>{{job.location}}</h4>
+        <h5>{{job.date}}</h5>
+
+        <button class="btn btn-success" (click)="openModal(content, job)" style="margin:10px">Expand</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<ng-template #content let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title">{{selectedJob?.title}}, {{selectedJob?.location}}</h4>
+    <button type="button" class="btn-close" aria-label="Close" (click)="closeModal(modal)"></button>
+  </div>
+  <div class="modal-body">
+    <h5>{{selectedJob?.date}}</h5>
+    <p>{{selectedJob?.description}}</p>
+    <ul>
+      <li *ngFor="let res of selectedJob?.responsibilities">{{res}}</li>
+    </ul>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-light" (click)="closeModal(modal)">Close</button>
+  </div>
+</ng-template>
