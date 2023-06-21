@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## About the project
 
-Following the brief for this technical test, you will find my CV in the form of an Angular application. The application is split into components, each of which is responsible for a different section of the CV. It includes animations, images, and interactive elements. You can click on the projects to view them. Best viewed on a desktop using Chrome, but also works on mobile.
+Following the brief for this technical test, you will find my CV in the form of an Angular application. The application is split into components, each of which is responsible for a different section of the CV. It includes animations, images, and interactive elements. You can click on the projects to view them. Best viewed on a desktop using Chrome, but also works on mobile. Just run ng serve in AngularCV
 
 
 ## Timings
