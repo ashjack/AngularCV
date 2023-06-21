@@ -1,0 +1,66 @@
+[
+  {
+    "type": "Employment",
+    "title": "Junior Programmer",
+    "location": "TeamImprover, Chinnor",
+    "date": "07/2022 - Present",
+    "description": "In addition to placement year responsibilities:",
+    "responsibilities": [
+      "Effective client communication, listening to requirements and providing adaptive support.",
+      "Task delegation and management through Azure DevOps to plan and ensure successful task completion.",
+      "Designing and planning out new features and taking a lead in their implementation."
+    ]
+  },
+  {
+    "type": "Employment",
+    "title": "Placement Programmer",
+    "location": "TeamImprover, Chinnor",
+    "date": "09/2020 - 08/2021",
+    "responsibilities": [
+      "Full stack development in Angular and C#, utilising TypeScript, HTML, CSS and JavaScript, ensuring high-quality code and functionality.",
+      "Used GIT version control, ensuring proper branching, merging, and conflict resolution in a hybrid setting."
+    ]
+  },
+
+  {
+    "type": "Employment",
+    "title": "Programmer",
+    "location": "Freelance",
+    "date": "2015 - Present",
+    "responsibilities": [
+      "Installed and setup web software for clients via FTP, gaining practice in client communication.",
+      "Created C# solutions within the Unity3D Game Engine, aiding my ability to think algorithmically and solve problems.",
+      "Built Java modifications for the popular game Minecraft, gaining over 200,000 unique views across the English and Chinese speaking world."
+    ]
+  },
+
+  {
+    "type": "Education",
+    "title": "BSc (Hons) Computing - 1st",
+    "location": "Coventry University",
+    "date": "2018 - 2022",
+    "description": "Modules include:",
+    "responsibilities": [
+      "Programming and Algorithms (year 1)",
+      "Software Design (year 1)",
+      "Object Oriented Programming (year 1)",
+      "Web Development (year 2)",
+      "Programming for Developers (year 2)",
+      "Enterprise Project (year 2)",
+      "Mobile App Development (year 3)",
+      "Web API Development (year 3)",
+      "User Experience Design (year 3)"
+    ]
+  },
+  {
+    "type": "Education",
+    "title": "A-Levels",
+    "location": "Lord Williams's School, Thame",
+    "date": "2016 - 2018",
+    "responsibilities": [
+      "ICT (B)",
+      "Media Studies (B)",
+      "Physics (C)"
+    ]
+  }
+]

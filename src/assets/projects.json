@@ -1,0 +1,28 @@
+[
+  {
+    "id": "project-js-chatbot",
+    "name": "JavaScript-based Chatbot",
+    "image": "https://www.ashjackgames.co.uk/wp-content/uploads/2020/02/Profile.jpg",
+    "intro": "As the moderator of a 100+ person group chat, I created a chatbot with the capability to interact with users and track those who joined and left via a MySQL database with a PHP connection. There were three major parts to the project:",
+    "steps": [
+      "JavaScript front-end that could send and read messages through the web version of the telegram-based app. This utilised JQuery to interact with HTML elements throughout the page.",
+      "PHP webpage with access to a MySQL Database using HTTP POST.",
+      "Server-based Google Apps Script to read data from the database and update an online spreadsheet accordingly."
+    ],
+    "outro": "The project was successful and allowed for much easier moderation of the group, as well as less time spent tracking users. The project taught me a lot about interfacing between different platforms (e.g. JavaScript to PHP) instead of trying to use one set solution for everything."
+  },
+
+  {
+    "id": "project-angular-comment-system",
+    "name": "Angular-based Comment System",
+    "image": "https://www.ashjackgames.co.uk/wp-content/uploads/2017/01/Space-2.png",
+    "intro": "While working for TeamImprover, I was tasked with creating a comment system for an org chart. Each box in the chart was to have a comment section, inspired by the comment feature of Microsoft Office tools, to allow chart admins to discuss and leave notes between themselves, as well as adding reactions such as a thumbs up. The system can be broken down into several broad parts:",
+    "steps": [
+      "Using Entity Framework to create new database columns, and access and update the database as the user creates or removes comments",
+      "Creating a C# API Controller and Service to effectively handle input from the client and carry out the tasks of the API in a secure and efficient manner",
+      "Creating an Angular module to contain and handle all comment code. A service, reducer and effects file were created to make use of NgRx state management to store data, reducing the need for multiple HTTP GET calls to the API",
+      "Utilising Angular’s animation module to create a smooth, modern look for popups and to make each comment collapsible"
+    ],
+    "outro": "Overall, this feature took about 2 months to complete from start to finish, and was deployed successfully to the TeamOrgChart app. This project taught me new Angular functionality that I had yet to use, such as animations and creating a new module, and further improved my skill in APIs and Entity Framework."
+  }
+]
