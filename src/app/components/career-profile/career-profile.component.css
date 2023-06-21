@@ -1,0 +1,38 @@
+p {
+    margin: auto;
+    font-size: 1.5em;
+    min-height: 300px;
+
+}
+
+.terminal {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    background: black;
+    color: white;
+    font-family: monospace;
+    padding: 10px;
+    overflow: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    border-style: solid;
+    border-width: 5px;
+}
+
+/*make terminal 75% width on mobile*/
+@media only screen and (max-width: 600px) {
+    .terminal {
+        width: 75%;
+    }
+}
+
+.flashing-underscore{
+animation: 1s blink step-end infinite;
+}
+
+@keyframes blink{
+    from, to {color: transparent}
+    50% {color: white;}
+}
+
