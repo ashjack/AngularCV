@@ -1,0 +1,4 @@
+<!--Make an ngFor to create multiple hex-button components from within the projects array -->
+  <div *ngFor="let project of projects;" style="display: flex; justify-content: center;">
+    <hex-button style="margin: 0 10px;" [project]="project"></hex-button>
+  </div>
