@@ -2,7 +2,7 @@ p {
     margin: auto;
     font-size: 1.5em;
     min-height: 300px;
-
+    font-family: monospace;
 }
 
 .terminal {
@@ -20,12 +20,13 @@ p {
     border-width: 5px;
 }
 
-/*make terminal 75% width on mobile*/
-@media only screen and (max-width: 600px) {
-    .terminal {
-        width: 75%;
-    }
+@media only screen and (max-width: 768px) {
+  .terminal {
+    width: 75%;
+  }
 }
+
+/*Animation to make the flashing _ effect for the terminal*/
 
 .flashing-underscore{
 animation: 1s blink step-end infinite;

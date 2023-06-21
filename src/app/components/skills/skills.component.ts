@@ -26,6 +26,7 @@ export class SkillsComponent {
     }, 500);
   }
 
+  //Returns the percentage for the progress bar for years. 8 years is 100%. This is done to animate the bars on page load
   getSkillYears(skill: Skill): number {
     return this.showCorrectValues ? skill.years * 12.5 : 0;
   }

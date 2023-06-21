@@ -26,9 +26,9 @@ export class CareerProfileComponent {
     
   }
 
-  //function to put the full profile text into the displayed profile text word-by-word every 50ms
+  //Function to put the full profile text into the displayed profile text word-by-word every 50ms
   displayProfile(): void {
-if (this.fullProfile.length > 0) {
+    if (this.fullProfile.length > 0) {
       this.displayedProfile += this.fullProfile[0];
       this.fullProfile = this.fullProfile.substr(1);
       setTimeout(() => {
