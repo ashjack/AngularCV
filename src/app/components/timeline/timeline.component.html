@@ -3,7 +3,7 @@
 <div style="width: 40px; height: 3000px; border-radius: 25px; background: black; display: flex; justify-content: center; align-items: center;">
   <div style="width: 20px; height: 2980px; border-radius: 20px; background: white; position:absolute"></div>
   <div style="width: 80px; height: 3000px; border-radius: 20px; position: absolute">
-    <div class="circle" [style.top]="((i * 2 + 1) / (l * 2)) * 100 + '%'" *ngFor="let job of history; let i = index; let l = count">
+    <div class="circle" [style.top]="((i * 2 + 1) / (l * 2)) * 100 + '%'" *ngFor="let job of history; let i = index; let l = count"  [style.background]="job.type == 'Education' ? 'blue' : 'green'">
       <div class="job-text {{(i % 2) == 0 ? 'job-text-right' : 'job-text-left'}}" [style.margin-left]="(i % 2) == 0 ? 8 + 'em' : -20 + 'em'">
         <h3>{{job.title}}</h3>
         <h4>{{job.location}}</h4>
