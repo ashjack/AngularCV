@@ -1,4 +1,8 @@
-<!--Make an ngFor to create multiple hex-button components from within the projects array -->
+<!--Make an ngFor to create multiple hex-button components from within the projects array
+
+  Has been constructed so that any number of projects can be created, but for time's sake there are only the 2 from my CV'
+  The original idea was to lay them out like honeycomb, which given more time would work well with this component
+  -->
   <div *ngFor="let project of projects;" style="display: flex; justify-content: center;">
     <hex-button style="margin: 0 10px;" [project]="project"></hex-button>
   </div>
