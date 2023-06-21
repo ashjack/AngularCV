@@ -1,0 +1,42 @@
+.skill-card {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  min-width: 300px;
+  min-height: 300px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.skill-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+text-align: center;
+}
+
+.progress-bar {
+  transition: width 1s ease-in-out;
+}
+
+img {
+  max-width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
