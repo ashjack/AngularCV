@@ -1,0 +1,72 @@
+[
+  {
+    "category": "Programming Languages",
+    "skills": [
+      {
+        "name": "C#",
+        "image": "c-sharp.png",
+        "years": 8
+      },
+      {
+        "name": "Java",
+        "image": "java.png",
+        "years": 8
+      },
+      {
+        "name": "JavaScript",
+        "image": "javascript.png",
+        "years": 6
+      },
+      {
+        "name": "Python",
+        "image": "python.png",
+        "years": 6
+      },
+      {
+        "name": "C++",
+        "image": "cpp.png",
+        "years": 1
+      }
+    ]
+  },
+  {
+    "category": "Web Development",
+    "skills": [
+      {
+        "name": "Angular",
+        "image": "angular.png",
+        "years": 2
+      },
+      {
+        "name": "HTML",
+        "image": "html.png",
+        "years": 6
+      },
+      {
+        "name": "CSS",
+        "image": "css.png",
+        "years": 6
+      },
+      {
+        "name": "PHP",
+        "image": "php.png",
+        "years": 4
+      },
+      {
+        "name": "MySQL",
+        "image": "mysql.png",
+        "years": 2
+      }
+    ]
+  },
+  {
+    "category": "Game Engines",
+    "skills": [
+      {
+        "name": "Unity",
+        "image": "unity.png",
+        "years": 8
+      }
+    ]
+  }
+]
